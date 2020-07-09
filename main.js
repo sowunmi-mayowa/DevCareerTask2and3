@@ -1,6 +1,6 @@
 const darkTheme = document.querySelector("#darktheme");
 
-darkTheme.addEventListener("change", changeTheme)
+darkTheme.addEventListener("change", changeTheme);
 
 function changeTheme(){
     if(darkTheme.checked){

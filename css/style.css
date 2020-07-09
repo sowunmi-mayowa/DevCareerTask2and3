@@ -2,16 +2,23 @@
     padding: 0;
     margin: 0;
 }
+.container-fluid{
+   
+}
 .left-box{
     background:#05B993 url('https://devcareer.io/images/bg.svg') right;
     background-size: cover;
     height: 100vh !important;
+    transition: all 0.5s ease-in;
 }
 img{
     width: 300px;
     height: 300px;
     border: 5px solid white;
     margin: 5px;
+}
+img:hover{
+    transform: scale(0.98);
 }
 .create-profile{
     display: inline-block;
@@ -61,6 +68,10 @@ img{
     text-align: center;
     padding-top: 17px;
     margin: 5px;
+    transition: all 0.5s ease-in;
+}
+.fa:hover{
+    transform: scale(0.7);
 }
 .fa-facebook-square {
     color: blue;
