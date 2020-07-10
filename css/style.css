@@ -2,9 +2,6 @@
     padding: 0;
     margin: 0;
 }
-.container-fluid{
-   
-}
 .left-box{
     background:#05B993 url('https://devcareer.io/images/bg.svg') right;
     background-size: cover;
@@ -16,9 +13,10 @@ img{
     height: 300px;
     border: 5px solid white;
     margin: 5px;
+    transition: all 0.5s ease-in;
 }
 img:hover{
-    transform: scale(0.98);
+    transform: scale(0.95);
 }
 .create-profile{
     display: inline-block;
@@ -93,9 +91,9 @@ img:hover{
     color: #333333;
     border: 1px solid #333333;
 }
-.fa-google {
-    color: #ff0000;
-    border: 1px solid #ff0000;
+.fa-whatsapp {
+    color: rgb(24, 214, 24);
+    border: 1px solid rgb(24, 214, 24);
 } 
 @media(max-width: 425px){
     .left-box{
